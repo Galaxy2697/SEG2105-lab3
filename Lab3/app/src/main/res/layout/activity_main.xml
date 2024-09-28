@@ -118,11 +118,12 @@
                 android:text="9" />
 
             <Button
-                android:id="@+id/btnEqual"
+                android:id="@+id/btnMulti"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="=" />
+                android:text="*" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -130,20 +131,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btnDivide"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="/" />
-
-            <Button
-                android:id="@+id/btnMulti"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="*" />
 
             <Button
                 android:id="@+id/btnClear"
@@ -158,6 +145,21 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="0" />
+
+            <Button
+                android:id="@+id/btnEqual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/btnDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/" />
+
         </LinearLayout>
 
     </LinearLayout>
